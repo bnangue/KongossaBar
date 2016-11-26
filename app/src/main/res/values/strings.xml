@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">KongossaBar</string>
+
+
+    //Regions of cameroon
+    <string name="adamawa">Adamawa</string>
+    <string name="center">Center</string>
+    <string name="east">East</string>
+    <string name="far_north">Far North</string>
+    <string name="littoral">Littoral</string>
+    <string name="north">North</string>
+    <string name="north_west">Northwest</string>
+    <string name="south">South</string>
+    <string name="south_west">Southwest</string>
+    <string name="west">West</string>
+    <string name="action_add_post">Post</string>
+    <string name="action_tap_to_view_karma">view karma</string>
+
+
+</resources>

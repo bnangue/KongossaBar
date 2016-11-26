@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="south_west">Sud-Ouest</string>
+    <string name="adamawa">Adamaoua</string>
+    <string name="center">Centre</string>
+    <string name="east">Est</string>
+    <string name="far_north">Extrême Nord</string>
+    <string name="littoral">Littoral</string>
+    <string name="north">Nord</string>
+    <string name="north_west">NOrd-Ouest</string>
+    <string name="south">Sud</string>
+    <string name="west">Ouest</string>
+</resources>

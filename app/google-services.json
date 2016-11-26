@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "46988894390",
+    "firebase_url": "https://camertrashtalk.firebaseio.com",
+    "project_id": "camertrashtalk",
+    "storage_bucket": "camertrashtalk.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:46988894390:android:78d123deaf3b113b",
+        "android_client_info": {
+          "package_name": "com.bricenangue.nextgeneration.kongossabar"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "46988894390-8as98addf5oh9ig5arvc9bqii3omvrc2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.bricenangue.nextgeneration.kongossabar",
+            "certificate_hash": "881B425908AACFFF27E4C3EAC32663F5DE08D1D9"
+          }
+        },
+        {
+          "client_id": "46988894390-hvhenb3gr9b822ni7ktupd5jqiiak5vo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBX1syjPBMt37VeNKbdbfC2bOJf6Eyz9HM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "46988894390-hvhenb3gr9b822ni7ktupd5jqiiak5vo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

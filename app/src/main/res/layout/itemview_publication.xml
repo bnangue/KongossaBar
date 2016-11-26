@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#FFF"
+    >
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:background="@color/purple_app"
+        android:layout_marginBottom="1dp">
+
+
+        <ImageButton
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            app:srcCompat="@drawable/ic_action_thumb_down"
+            android:id="@+id/imagebuttonThumbDOWN_viewComment"
+            android:scaleType="centerCrop"
+            android:layout_below="@+id/textViewnumberofLikes_viewComments"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            style="@style/Base.Widget.AppCompat.Button.Borderless"
+            />
+
+        <ImageButton
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            app:srcCompat="@drawable/ic_action_thumb_up"
+            android:id="@+id/imagebuttonThumbUP_viewComment"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_above="@+id/textViewnumberofLikes_viewComments"
+            android:scaleType="centerCrop"
+            style="@style/Base.Widget.AppCompat.Button.Borderless"
+
+            />
+
+        <TextView
+            android:text="2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_alignLeft="@+id/imagebuttonThumbDOWN_viewComment"
+            android:gravity="center"
+            android:id="@+id/textViewnumberofLikes_viewComments" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:id="@+id/linearelayout_indication_buttons">
+
+            <TextView
+                android:text="12 min"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:layout_marginLeft="11dp"
+                android:layout_marginStart="11dp"
+                android:id="@+id/textViewtime_viewComment"
+                android:clickable="false"
+                android:layout_gravity="center_vertical"
+                />
+
+            <ImageButton
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/ic_action_comment"
+                android:id="@+id/imageButtonOpencomments"
+                android:layout_gravity="bottom"
+                style="@style/Base.Widget.AppCompat.Button.Borderless"
+                />
+
+            <TextView
+                android:id="@+id/textViewnumberofComments"
+                android:text="2"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_gravity="center_vertical"
+                android:layout_marginRight="30dp"
+                />
+
+            <ImageButton
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                app:srcCompat="@android:drawable/ic_menu_mylocation"
+                android:id="@+id/imageButton212"
+                android:layout_gravity="bottom"
+                style="@style/Base.Widget.AppCompat.Button.Borderless"
+                />
+            <TextView
+                android:text="this is my location"
+                android:layout_width="147dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="12dp"
+                android:layout_marginEnd="12dp"
+                android:id="@+id/textViewmylocation"
+                android:gravity="start"
+                android:clickable="false"
+                android:layout_gravity="center_vertical"
+                />
+
+
+        </LinearLayout>
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/imageViewpicturefromPublication"
+            android:layout_alignParentTop="true"
+            android:alpha="0.2"/>
+        <TextView
+            android:text="This the trash i posted to get people's attention and collect a lot of positiv Karma send two I want a beef but i dont have no pepper who am i who i am who am i who am "
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginRight="56dp"
+            android:layout_marginEnd="56dp"
+            android:layout_marginTop="12dp"
+            android:id="@+id/textViewTpublicationtext_viewComment"
+            android:padding="10dp"
+            android:gravity="fill"/>
+
+
+    </RelativeLayout>
+
+</RelativeLayout>
